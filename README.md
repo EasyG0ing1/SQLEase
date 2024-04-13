@@ -3,7 +3,7 @@
 SQLEase is a simple library that makes it easy to interact with a MySQL or a SQLite database.
 
 
-The library contains two many classes, SQLite and MySQL.
+The library contains two main classes: `SQLite` and `MySQL`
 
 The Javadocs explain the methods in the library. This library assumes you have worked with databases before and so the Javadocs should be relatively easy to understand.
 
@@ -27,16 +27,16 @@ compile group: 'com.simtechdata', name: 'SQLEase', version: 1.0.0
 
 You can even use it from a Groovy script!
 
-```groovy
+``` Groovy
 @Grapes(
   @Grab(group='com.simtechdata', module='SQLEase', version=1.0.0)
 )
 ```
 
 ### Modular Apps
-If your app is modular, then add this to your ```module-info.java``` file
+If your app is modular, then add this to your `module-info.java` file
 
-```Java
+``` Java
 requires SQLEase;
 requires java.sql;
 ```
@@ -44,7 +44,7 @@ requires java.sql;
 ### Dependencies
 You will also need these dependencies (update the version information as needed)
 
-```xml
+``` XML
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>

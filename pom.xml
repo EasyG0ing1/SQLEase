@@ -54,7 +54,7 @@
     </dependencies>
 
     <name>${project.artifactId}</name>
-    <description>A Java API for Quick and easy access to MySQL or SQLite</description>
+    <description>A Java Library for Quick and easy access to MySQL or SQLite</description>
     <url>https://github.com/EasyG0ing1/SQLEase</url>
     <licenses>
         <license>
